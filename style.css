@@ -359,10 +359,23 @@
     margin-top: 3rem;
   }
   .hero .brand img {
-    transition: 0.3s;
+    animation: alternate-reverse, 0.3s, kece;
   }
-  .hero .brand img:hover {
+  /* .hero .brand img:hover {
     transform: translate(-20px, -30px);
     box-shadow: 15px 10px 10px black;
   }
-  
+   */
+  @keyframes kece{
+    0%{
+      transform: translate(0, 0);
+    }
+
+    50%{
+      transform:translate(-20px, -30px);
+    }
+
+    100%{
+      transform:translate(0,0);
+    }
+  }
