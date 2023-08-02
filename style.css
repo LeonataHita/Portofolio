@@ -341,15 +341,14 @@ body {
     flex-wrap: wrap;
   }
 }
-.project-content div .title-box{
+.project-content div .title-box {
   transition: none;
 }
 
 .project-content div:hover .title,
 .project-content div:hover .title-box {
-  transform:none;
+  transform: none;
 }
-
 
 /* Mobile */
 @media (max-width: 450px) {
