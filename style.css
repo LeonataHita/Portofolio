@@ -359,7 +359,7 @@
     margin-top: 3rem;
   }
   .hero .brand img {
-    animation: alternate-reverse, 0.3s, kece;
+    animation:kece 0.3s infinite;
   }
   /* .hero .brand img:hover {
     transform: translate(-20px, -30px);
