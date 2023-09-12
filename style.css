@@ -1,7 +1,7 @@
 :root {
-  --primary: #b8c1ec;
-  --sec: #eebbc3;
-  --bg: #3e4466;
+  --primary: #3b3b3b;
+  --sec: rgb(20, 20, 20);
+  --bg: #e2e1e1;
   --nav: #121629;
   --highlight: #eebbc3;
 }
@@ -23,7 +23,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  height: 3000px;
+  /* height: 3000px; */
 }
 
 /* Navbar */
@@ -32,7 +32,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
-  background-color: rgba(18, 22, 41, 0.9);
+  background-color: rgba(61, 62, 65, 0.9);
   border-bottom: var(--sec) 1px solid;
   position: fixed;
   top: 0;
@@ -46,7 +46,7 @@ body {
 .navbar .navbar-logo {
   font-size: 2.5rem;
   font-weight: 900;
-  color: var(--primary);
+  color: var(--bg);
 }
 
 .navbar .navbar-nav a {
@@ -103,10 +103,11 @@ body {
 
 .hero h1 {
   font-size: 3rem;
+  color: var(--primary);
 }
 
 .hero h2 a {
-  color: var(--primary);
+  color: var(--sec);
 }
 .hero p {
   font-size: 1.5rem;
@@ -125,12 +126,17 @@ body {
   padding: 8rem 7% 1.4rem;
 }
 
+.about h3,p{
+  color: var(--primary);
+}
+
 .contact h2,
 .project h2,
 .about h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
+  color: var(--primary);
 }
 
 .about .row {
@@ -157,7 +163,7 @@ body {
 
 .about .row .content p {
   margin-bottom: 1rem;
-  font-weight: lighter;
+  font-weight: 600;
   font-size: 1.4rem;
 }
 /* About Section End */
@@ -166,7 +172,7 @@ body {
 .project p {
   font-size: 1.4rem;
   padding: 0 10% 1.5rem;
-  font-weight: lighter;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -234,7 +240,7 @@ body {
 /* Contact Section */
 .contact-content {
   width: 80%;
-  background-color: #272b41;
+  background-color: #2b2b2b;
   margin: auto;
 }
 .contact .contact-content {
@@ -263,6 +269,7 @@ body {
   padding: 1rem;
   font-size: 1.5rem;
   margin: 1.5rem;
+  border-radius: 10px;
 }
 
 .custom-hr {
