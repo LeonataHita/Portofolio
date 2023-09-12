@@ -2,8 +2,9 @@
   --primary: #3b3b3b;
   --sec: rgb(20, 20, 20);
   --bg: #e2e1e1;
-  --nav: #121629;
+  --nav: #06070e;
   --highlight: #eebbc3;
+  --nac2 :rgb(61, 62, 65);
 }
 
 * {
@@ -58,7 +59,7 @@ body {
 }
 
 .navbar .navbar-nav a:hover {
-  color: var(--primary);
+  color: rgb(0, 0, 0);
 }
 
 .navbar .navbar-nav a::after {
@@ -314,7 +315,7 @@ body {
     position: absolute;
     top: 100%;
     right: -100%;
-    background-color: var(--nav);
+    background-color: var(--nac2);
     width: 30rem;
     height: 100vh;
     transition: 0.3s;
@@ -325,7 +326,7 @@ body {
   }
 
   .navbar .navbar-nav a {
-    color: var(--highlight);
+    color: var(--bg);
     display: block;
     margin: 1.5rem;
     padding: 0.5;
